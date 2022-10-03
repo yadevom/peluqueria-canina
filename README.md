@@ -2,7 +2,7 @@
 - Realizada con neetbeans conexion a BD MySQL
 - De acuerdo al enunciado, se realizara el programa en el modelo de capas:
 * capa persistencia : base de datos
-* capa vista : interfaz grafica IGU 
+* capa vista : interfaz grafica IGU con Swing 
 * capa logica : clase, metodos...
 
 ## Ejercicio Integrador: Peluquería Canina
