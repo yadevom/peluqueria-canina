@@ -1,4 +1,5 @@
-# Creación APP Java ¡Con CRUD con JPA 
+# Creación APP Java CRUD con JPA
+
 - Realizada con neetbeans conexion a BD MySQL
 - De acuerdo al enunciado, se realizara el programa en el modelo de capas:
 * capa persistencia : base de datos
@@ -30,10 +31,10 @@ como dueños que se ingresen desde una interfaz gráfica de usuario.
 En el archivo JPA.pptx esta una presentación teorica de los conceptos antes de empezar el proyecto
 
 ## Ejecucion de aplicacion
+
 - En el paquete Logica se encuentra la principal de inicio "JpaPrueba"
-- Estas comentadas lineas de codigo para que no se ejecuten
 - Antes de ejecuta debes tener creada y configurada la conexion a la BD
-- Al ejecutar y crear un usuario ademas de registrar los datos en BD tambien crear la tabla
+- La aplicación al ejecutarse, crea el usuario ademas de registrar los datos en BD tambien crear la tablas
 ## Configurar conexion a BD
 - En la ruta del proyecto "src/main/resources" el paquete "META-INF" persistence.xml en la opción Source 
 - Se encontrara toda la configuración para realizar los cambios como nombre BD, usuario y clave para conectar.
@@ -47,6 +48,7 @@ Ubicarse en el directorio de "Dependencies" clic derecho "Add Dependency..."
 - Luego podemos validar que en el directorio "Dependencies" ya aparece el driver cargado
 
 ## Configuracion conexion BD en NetBeans
+
 Dirigirse en el proyecto al apartado "Services"
 
 - Seleccionar "Database" New Connection...
@@ -69,3 +71,31 @@ SELECT * FROM peluqueria_canina.SEQUENCE;
 ```
 
 - Eliminar tabla `DROP TABLE peluqueria_canina.DUENO;`
+
+## Instructivo App
+Menu Inicio: Donde tendra la opción de cargar datos, ver datos registrados y salir de la aplicación:
+
+
+
+Menu cargar datos: Podra registrar los datos de la mascota y dueño, al ingresar datos debes "Guardar" y posterior "Limpiar", tambien tienes la opción de boton de regresar al inicio de la aplicación:
+
+
+
+Mensaje datos registrados:
+
+
+
+Menu ver Datos: En caso de tener datos en BD se mostraran, tiene las opciones de borrar, editar y regresar al inicio:
+
+
+
+Si selecionas borrar o eliminar sin selecionar un dato de la tabla saldra un mensaje indicando que es necesario:
+
+
+
+Cuando "borras" notificara un mensaje del proceso realizado:
+
+
+Cuando selecionas y das en "editar" cargara el formulario, con todos datos a modificar, debes darle guardar para que se registre en BD:
+
+

@@ -32,6 +32,7 @@ public class VerDatos extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         btnEliminar = new javax.swing.JButton();
         btnEditar = new javax.swing.JButton();
+        btnInicio = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -41,6 +42,7 @@ public class VerDatos extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Cascadia Mono PL", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 102, 255));
         jLabel1.setText("Visualización de Datos");
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -59,19 +61,30 @@ public class VerDatos extends javax.swing.JFrame {
         jScrollPane1.setViewportView(tablaMascotas);
 
         jLabel2.setFont(new java.awt.Font("Cascadia Mono PL", 2, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(51, 102, 255));
         jLabel2.setText("Datos de mascotas");
 
-        btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/eliminar.png"))); // NOI18N
+        btnEliminar.setIcon(new javax.swing.ImageIcon("/home/yadev/home/NetBeansProjects/TodoCode/PeluqueriaCanina/img/eliminar.png")); // NOI18N
+        btnEliminar.setText("Borrar");
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarActionPerformed(evt);
             }
         });
 
-        btnEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/editar.png"))); // NOI18N
+        btnEditar.setIcon(new javax.swing.ImageIcon("/home/yadev/home/NetBeansProjects/TodoCode/PeluqueriaCanina/img/editar.png")); // NOI18N
+        btnEditar.setText("Editar");
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEditarActionPerformed(evt);
+            }
+        });
+
+        btnInicio.setIcon(new javax.swing.ImageIcon("/home/yadev/home/NetBeansProjects/TodoCode/PeluqueriaCanina/img/inicio.png")); // NOI18N
+        btnInicio.setText("Inicio");
+        btnInicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnInicioActionPerformed(evt);
             }
         });
 
@@ -88,7 +101,8 @@ public class VerDatos extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(btnEliminar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnEditar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(btnEditar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnInicio, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap(14, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -101,7 +115,9 @@ public class VerDatos extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(btnEliminar)
                         .addGap(18, 18, 18)
-                        .addComponent(btnEditar))
+                        .addComponent(btnEditar)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnInicio))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 348, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(116, Short.MAX_VALUE))
         );
@@ -195,6 +211,14 @@ public class VerDatos extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnEditarActionPerformed
 
+    private void btnInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInicioActionPerformed
+        this.dispose();
+        
+        Principal pantallaInicio = new Principal();
+        pantallaInicio.setVisible(true); // Cargar datos y que sea visible
+        pantallaInicio.setLocationRelativeTo(null);
+    }//GEN-LAST:event_btnInicioActionPerformed
+
     public void mostrarMensaje(String mensaje, String tipo, String titulo) {
         
         // Cuando termine de Guardar se crea el JOptionPane(panel del opciones) 
@@ -215,6 +239,7 @@ public class VerDatos extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEditar;
     private javax.swing.JButton btnEliminar;
+    private javax.swing.JButton btnInicio;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
