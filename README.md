@@ -1,4 +1,6 @@
-# Creación APP Java CRUD con JPA
+# Creación Aplicación de Escritorio CRUD con JPA MySQL
+
+- Se realiza aplicación de escritorio, frontend con Swing, Backend Java y conexion a BD MySQL. Para realizar las operaciones basicas CRUD.
 
 - Realizada con neetbeans conexion a BD MySQL
 - De acuerdo al enunciado, se realizara el programa en el modelo de capas:
