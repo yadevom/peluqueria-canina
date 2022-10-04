@@ -75,27 +75,28 @@ SELECT * FROM peluqueria_canina.SEQUENCE;
 ## Instructivo App
 Menu Inicio: Donde tendra la opción de cargar datos, ver datos registrados y salir de la aplicación:
 
-
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app1.png)
 
 Menu cargar datos: Podra registrar los datos de la mascota y dueño, al ingresar datos debes "Guardar" y posterior "Limpiar", tambien tienes la opción de boton de regresar al inicio de la aplicación:
 
-
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app2.png)
 
 Mensaje datos registrados:
 
-
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app3.png)
 
 Menu ver Datos: En caso de tener datos en BD se mostraran, tiene las opciones de borrar, editar y regresar al inicio:
 
-
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app4.png)
 
 Si selecionas borrar o eliminar sin selecionar un dato de la tabla saldra un mensaje indicando que es necesario:
 
-
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app5.png)
 
 Cuando "borras" notificara un mensaje del proceso realizado:
 
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app6.png)
 
 Cuando selecionas y das en "editar" cargara el formulario, con todos datos a modificar, debes darle guardar para que se registre en BD:
 
-
+![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app7.png)
