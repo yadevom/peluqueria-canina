@@ -75,11 +75,11 @@ SELECT * FROM peluqueria_canina.SEQUENCE;
 - Eliminar tabla `DROP TABLE peluqueria_canina.DUENO;`
 
 ## Instructivo App
-Menu Inicio: Donde tendra la opción de cargar datos, ver datos registrados y salir de la aplicación:
+Menu principal: Donde tendra la opción de registrar datos, ver datos registrados y salir de la aplicación:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app1.png)
 
-Menu cargar datos: Podra registrar los datos de la mascota y dueño, al ingresar datos debes "Guardar" y posterior "Limpiar", tambien tienes la opción de boton de regresar al inicio de la aplicación:
+Si selecionas la opción "cargar datos", podras registrar los datos de la mascota y dueño, ádemas de otros datos. Debes "Guardar" y posterior "Limpiar", adicional tienes la opción de boton "inicio" para regresear al menu principal de la aplicación:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app2.png)
 
@@ -87,18 +87,18 @@ Mensaje datos registrados:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app3.png)
 
-Menu ver Datos: En caso de tener datos en BD se mostraran, tiene las opciones de borrar, editar y regresar al inicio:
+Menu ver Datos: En caso de tener datos en BD se mostraran los registros en una tabla, tiene las opciones de los botones borrar, editar e inicio:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app4.png)
 
-Si selecionas borrar o eliminar sin selecionar un dato de la tabla saldra un mensaje indicando que es necesario:
+Si selecionas los botones "borrar" o "eliminar" sin selecionar un dato de la tabla saldra un mensaje indicando que es necesario, primero realizar una selecion:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app5.png)
 
-Cuando "borras" notificara un mensaje del proceso realizado:
+Cuando selecionas el boton "borrar", se genera un mensaje de notificación indicando el proceso realizado:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app6.png)
 
-Cuando selecionas y das en "editar" cargara el formulario, con todos datos a modificar, debes darle guardar para que se registre en BD:
+Cuando selecionas el boton "editar", se abrira otro formulario con todos datos que se pueden modificar, luego de actualizar la información, debes selecionar el boton "guardar" para guarden los cambios  en BD:
 
 ![Image text](https://github.com/yadevom/peluqueria-canina/blob/main/img/app7.png)
